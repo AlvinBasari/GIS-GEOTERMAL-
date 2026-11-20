@@ -1,0 +1,146 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Major Indonesian Tectonic Fault Lines & Volcanic Arc Zones",
+    "description": "Sesar Tektonik Aktif Utama Indonesia yang Mengontrol Sistem Panas Bumi Hidrotermal (PuSGeN & Badan Geologi)",
+    "crs": "urn:ogc:def:crs:OGC:1.3:CRS84",
+    "last_updated": "2025-10",
+    "source": "Pusat Studi Gempa Nasional (PuSGeN 2017/2024), Badan Geologi, & Sieh & Natawidjaja (2000)"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [95.2, 5.5],
+          [96.1, 4.8],
+          [97.0, 3.8],
+          [98.3, 2.5],
+          [99.0, 1.9],
+          [99.8, 1.0],
+          [100.5, 0.2],
+          [101.2, -0.6],
+          [101.8, -1.5],
+          [102.5, -2.5],
+          [103.2, -3.5],
+          [104.2, -4.8],
+          [104.6, -5.3],
+          [105.0, -5.9]
+        ]
+      },
+      "properties": {
+        "id": "FAULT-GSF",
+        "fault_name": "Sesar Besar Sumatera (Great Sumatran Fault / Semangko)",
+        "fault_type": "Dextral Strike-Slip (Mendatar Menganan)",
+        "length_approx_km": 1900,
+        "geothermal_correlation": "Sangat Tinggi. Mengontrol lapangan Sarulla, Sibayak, Muara Laboh, Hululais, Lumut Balai, Rantau Dedap, Suoh-Sekincau, dan Ulubelu.",
+        "seismic_hazard": "Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [106.3, -7.0],
+          [106.8, -6.9],
+          [107.2, -6.9],
+          [107.6, -7.0],
+          [108.0, -7.1],
+          [108.5, -7.2]
+        ]
+      },
+      "properties": {
+        "id": "FAULT-CMD",
+        "fault_name": "Sesar Cimandiri - Gandasoli",
+        "fault_type": "Oblique Reverse / Strike-Slip",
+        "length_approx_km": 100,
+        "geothermal_correlation": "Tinggi. Menghubungkan sistem hidrotermal Cisolok, Gunung Salak, dan anomali termal Jawa Barat selatan.",
+        "seismic_hazard": "Menengah - Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.45, -6.83],
+          [107.60, -6.82],
+          [107.72, -6.81]
+        ]
+      },
+      "properties": {
+        "id": "FAULT-LMB",
+        "fault_name": "Sesar Lembang",
+        "fault_type": "Left-lateral Normal Fault",
+        "length_approx_km": 29,
+        "geothermal_correlation": "Sedang - Tinggi. Dekat dengan sistem hidrotermal Tangkuban Parahu & Ciater.",
+        "seismic_hazard": "Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [106.9, -6.6],
+          [107.5, -6.7],
+          [108.2, -6.8],
+          [108.8, -6.9],
+          [109.5, -7.0],
+          [110.4, -7.0]
+        ]
+      },
+      "properties": {
+        "id": "FAULT-BRB",
+        "fault_name": "Sistem Sesar Baribis - Kendeng",
+        "fault_type": "Thrust Fault (Sesar Naik Aktif)",
+        "length_approx_km": 400,
+        "geothermal_correlation": "Menengah. Mengontrol batas struktural cekungan Jawa bagian utara dan permeabilitas termal Gunung Ciremai.",
+        "seismic_hazard": "Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [119.5, -0.2],
+          [119.85, -0.9],
+          [120.2, -1.8],
+          [120.5, -2.5],
+          [121.0, -3.2]
+        ]
+      },
+      "properties": {
+        "id": "FAULT-PLK",
+        "fault_name": "Sesar Palu - Koro",
+        "fault_type": "Sinistral Strike-Slip (Mendatar Mengiri Cepat)",
+        "length_approx_km": 500,
+        "geothermal_correlation": "Tinggi. Menjadi pengontrol utama sistem panas bumi non-vulkanik Marana, Bora, dan anomali termal Lembah Palu.",
+        "seismic_hazard": "Sangat Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [131.0, -0.8],
+          [129.5, -1.0],
+          [128.0, -1.3],
+          [126.5, -1.8]
+        ]
+      },
+      "properties": {
+        "id": "FAULT-SRG",
+        "fault_name": "Sesar Sorong - Maluku",
+        "fault_type": "Sinistral Transform Fault",
+        "length_approx_km": 800,
+        "geothermal_correlation": "Tinggi. Mengontrol permeabilitas tektonik busur Halmahera (Gunung Hamiding, Songa Wayaua, Jailolo).",
+        "seismic_hazard": "Tinggi"
+      }
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Indonesian Competitor Geothermal Power Plants & Projects",
+    "description": "Pemetaan Aset Pembangkit Listrik Tenaga Panas Bumi (PLTP) Kompetitor Utama Nasional (PGE, Geo Dipa, Sarulla, Supreme Energy, Medco Power, PLN)",
+    "crs": "urn:ogc:def:crs:OGC:1.3:CRS84",
+    "last_updated": "2025-10",
+    "source": "Kementerian ESDM (Ditjen EBTKE), ThinkGeoEnergy, Laporan Tahunan PGE 2024, Geo Dipa Energi, Wood Mackenzie Geothermal Service"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.7950, -7.1350]
+      },
+      "properties": {
+        "id": "COMP-PGE-KMJ",
+        "site_name": "PLTP Kamojang (Unit 1 - 5)",
+        "operator_company": "PT Pertamina Geothermal Energy Tbk (PGE)",
+        "company_category": "Pertamina Geothermal Energy (PGE)",
+        "is_star_energy": false,
+        "project_status": "Operational",
+        "status_label": "Beroperasi (235 MW)",
+        "installed_capacity_mw": 235.0,
+        "potential_capacity_mw": 300.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 245,
+        "wkp_name": "WKP Kamojang-Darajat",
+        "island": "Jawa",
+        "province": "Jawa Barat",
+        "regency": "Kabupaten Bandung & Garut",
+        "elevation_masl": 1500,
+        "commercial_operation_year": 1982,
+        "grid_connection": "Interkoneksi Jamali 150 kV",
+        "data_source": "PGE Annual Report 2024 & Ditjen EBTKE",
+        "description": "PLTP komersial pertama di Indonesia dan salah satu lapangan uap dominan (vapour dominated) terbaik di dunia."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.5889, -5.2842]
+      },
+      "properties": {
+        "id": "COMP-PGE-ULB",
+        "site_name": "PLTP Ulubelu (Unit 1 - 4)",
+        "operator_company": "PT Pertamina Geothermal Energy Tbk (PGE)",
+        "company_category": "Pertamina Geothermal Energy (PGE)",
+        "is_star_energy": false,
+        "project_status": "Operational",
+        "status_label": "Beroperasi (220 MW)",
+        "installed_capacity_mw": 220.0,
+        "potential_capacity_mw": 260.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 250,
+        "wkp_name": "WKP Ulubelu",
+        "island": "Sumatera",
+        "province": "Lampung",
+        "regency": "Kabupaten Tanggamus",
+        "elevation_masl": 800,
+        "commercial_operation_year": 2012,
+        "grid_connection": "Transmisi Sumatera 150 kV (Tol Listrik Lampung)",
+        "data_source": "PGE Annual Report & Ditjen EBTKE",
+        "description": "Memasok lebih dari 25% kebutuhan listrik provinsi Lampung dan interkoneksi Sumatera bagian selatan."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.8197, 1.2783]
+      },
+      "properties": {
+        "id": "COMP-PGE-LHD",
+        "site_name": "PLTP Lahendong (Unit 1 - 6)",
+        "operator_company": "PT Pertamina Geothermal Energy Tbk (PGE)",
+        "company_category": "Pertamina Geothermal Energy (PGE)",
+        "is_star_energy": false,
+        "project_status": "Operational",
+        "status_label": "Beroperasi (120 MW)",
+        "installed_capacity_mw": 120.0,
+        "potential_capacity_mw": 150.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 260,
+        "wkp_name": "WKP Lahendong-Tompaso",
+        "island": "Sulawesi",
+        "province": "Sulawesi Utara",
+        "regency": "Kota Tomohon & Minahasa",
+        "elevation_masl": 750,
+        "commercial_operation_year": 2001,
+        "grid_connection": "Sistem Interkoneksi Sulutenggo 150 kV",
+        "data_source": "PGE Annual Report 2024",
+        "description": "Pilar energi terbarukan di Sulawesi Utara, menyuplai lebih dari 30% beban kelistrikan grid Sulutenggo."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.5433, -4.2267]
+      },
+      "properties": {
+        "id": "COMP-PGE-LMB",
+        "site_name": "PLTP Lumut Balai (Unit 1 & Unit 2)",
+        "operator_company": "PT Pertamina Geothermal Energy Tbk (PGE)",
+        "company_category": "Pertamina Geothermal Energy (PGE)",
+        "is_star_energy": false,
+        "project_status": "Under Construction",
+        "status_label": "Operasi 55 MW + Konstruksi Unit 2 (55 MW)",
+        "installed_capacity_mw": 55.0,
+        "potential_capacity_mw": 165.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 240,
+        "wkp_name": "WKP Lumut Balai & Margabayur",
+        "island": "Sumatera",
+        "province": "Sumatera Selatan",
+        "regency": "Kabupaten Muara Enim",
+        "elevation_masl": 1150,
+        "commercial_operation_year": 2019,
+        "grid_connection": "Transmisi Sumatera 150 kV",
+        "data_source": "PGE Investor Presentation 2024",
+        "description": "Unit 1 (55 MW) beroperasi, sedangkan Unit 2 (55 MW) sedang dalam tahap konstruksi EPC menuju COD akhir 2024/2025."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.1360, -7.1420]
+      },
+      "properties": {
+        "id": "COMP-PGE-KRH",
+        "site_name": "PLTP Karaha Bodas (Unit 1)",
+        "operator_company": "PT Pertamina Geothermal Energy Tbk (PGE)",
+        "company_category": "Pertamina Geothermal Energy (PGE)",
+        "is_star_energy": false,
+        "project_status": "Operational",
+        "status_label": "Beroperasi (30 MW)",
+        "installed_capacity_mw": 30.0,
+        "potential_capacity_mw": 100.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 235,
+        "wkp_name": "WKP Karaha Bodas",
+        "island": "Jawa",
+        "province": "Jawa Barat",
+        "regency": "Kabupaten Tasikmalaya",
+        "elevation_masl": 1100,
+        "commercial_operation_year": 2018,
+        "grid_connection": "Interkoneksi Jamali 150 kV",
+        "data_source": "Ditjen EBTKE & PGE Report",
+        "description": "PLTP modern dengan total investasi efisien di perbatasan Tasikmalaya dan Garut."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.5033, 3.2383]
+      },
+      "properties": {
+        "id": "COMP-PGE-SBY",
+        "site_name": "PLTP Sibayak (Unit 1 - 3)",
+        "operator_company": "PT Pertamina Geothermal Energy Tbk (PGE)",
+        "company_category": "Pertamina Geothermal Energy (PGE)",
+        "is_star_energy": false,
+        "project_status": "Operational",
+        "status_label": "Beroperasi (12 MW)",
+        "installed_capacity_mw": 12.0,
+        "potential_capacity_mw": 50.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 240,
+        "wkp_name": "WKP Sibayak-Sinabung",
+        "island": "Sumatera",
+        "province": "Sumatera Utara",
+        "regency": "Kabupaten Karo",
+        "elevation_masl": 1400,
+        "commercial_operation_year": 1996,
+        "grid_connection": "Sistem Kelistrikan Sumatera Utara 20 kV / 150 kV",
+        "data_source": "Ditjen EBTKE Kementerian ESDM",
+        "description": "Pembangkit di lereng Gunung Sibayak dengan fluida uap dominan."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.3270, -3.1840]
+      },
+      "properties": {
+        "id": "COMP-PGE-HLS",
+        "site_name": "Proyek PLTP Hululais",
+        "operator_company": "PT Pertamina Geothermal Energy Tbk (PGE)",
+        "company_category": "Pertamina Geothermal Energy (PGE)",
+        "is_star_energy": false,
+        "project_status": "Under Construction",
+        "status_label": "Dalam Pembangunan (110 MW)",
+        "installed_capacity_mw": 0.0,
+        "potential_capacity_mw": 110.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 255,
+        "wkp_name": "WKP Hululais",
+        "island": "Sumatera",
+        "province": "Bengkulu",
+        "regency": "Kabupaten Lebong",
+        "elevation_masl": 1050,
+        "commercial_operation_year": null,
+        "grid_connection": "Rencana Transmisi Tol Listrik Sumatera 150 kV",
+        "data_source": "PGE Project Pipeline 2024",
+        "description": "Proyek strategis PGE dengan rencana 2 unit x 55 MW untuk memperkuat keandalan grid Sumatera Barat-Bengkulu."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.9122, -7.2056]
+      },
+      "properties": {
+        "id": "COMP-GDE-DNG",
+        "site_name": "PLTP Dieng (Unit 1 & Ekspansi Unit 2)",
+        "operator_company": "PT Geo Dipa Energi (Persero)",
+        "company_category": "Geo Dipa Energi",
+        "is_star_energy": false,
+        "project_status": "Under Construction",
+        "status_label": "Operasi 60 MW + Konstruksi Unit 2 (55 MW)",
+        "installed_capacity_mw": 60.0,
+        "potential_capacity_mw": 400.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 275,
+        "wkp_name": "WKP Dieng",
+        "island": "Jawa",
+        "province": "Jawa Tengah",
+        "regency": "Kabupaten Banjarnegara & Wonosobo",
+        "elevation_masl": 2050,
+        "commercial_operation_year": 2002,
+        "grid_connection": "Interkoneksi Jamali 150 kV",
+        "data_source": "Geo Dipa Energi Corporate Report & ADB Project Loan (2024)",
+        "description": "BUMN Panas Bumi di bawah Kemenkeu RI. Unit 2 (55 MW) didanai oleh Asian Development Bank (ADB) dan sedang dalam tahap pengeboran/konstruksi."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.4011, -7.1481]
+      },
+      "properties": {
+        "id": "COMP-GDE-PTH",
+        "site_name": "PLTP Patuha (Unit 1 & Ekspansi Unit 2)",
+        "operator_company": "PT Geo Dipa Energi (Persero)",
+        "company_category": "Geo Dipa Energi",
+        "is_star_energy": false,
+        "project_status": "Under Construction",
+        "status_label": "Operasi 55 MW + Konstruksi Unit 2 (55 MW)",
+        "installed_capacity_mw": 55.0,
+        "potential_capacity_mw": 400.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 240,
+        "wkp_name": "WKP Pangalengan-Patuha",
+        "island": "Jawa",
+        "province": "Jawa Barat",
+        "regency": "Kabupaten Bandung",
+        "elevation_masl": 1900,
+        "commercial_operation_year": 2014,
+        "grid_connection": "Interkoneksi Jamali 150 kV",
+        "data_source": "Geo Dipa Energi & ADB Project Disclosure",
+        "description": "Terletak di kawasan Gunung Patuha Ciwidey. Unit 2 (55 MW) dalam pengerjaan ekspansi kapasitas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [99.0417, 1.9056]
+      },
+      "properties": {
+        "id": "COMP-SRL-01",
+        "site_name": "PLTP Sarulla (Silangkitang & Namora-I-Langit)",
+        "operator_company": "Sarulla Operations Ltd (SOL)",
+        "company_category": "Sarulla Operations",
+        "is_star_energy": false,
+        "project_status": "Operational",
+        "status_label": "Beroperasi (330 MW Combined Cycle)",
+        "installed_capacity_mw": 330.0,
+        "potential_capacity_mw": 350.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 265,
+        "wkp_name": "WKP Sarulla",
+        "island": "Sumatera",
+        "province": "Sumatera Utara",
+        "regency": "Kabupaten Tapanuli Utara",
+        "elevation_masl": 900,
+        "commercial_operation_year": 2017,
+        "grid_connection": "Transmisi Tol Listrik Sumatera 275 kV",
+        "data_source": "Sarulla Operations Ltd, Medco Power & Ormat Technologies",
+        "description": "Salah satu proyek pembangkit listrik panas bumi siklus gabungan (geothermal combined cycle) terbesar di dunia, dikembangkan oleh konsorsium SOL (Medco, Ormat, Itochu, Kyushu)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.1344, -1.4933]
+      },
+      "properties": {
+        "id": "COMP-SUP-ML",
+        "site_name": "PLTP Muara Laboh (Unit 1 & Fase 2)",
+        "operator_company": "PT Supreme Energy Muara Laboh (SEML)",
+        "company_category": "Supreme Energy",
+        "is_star_energy": false,
+        "project_status": "Under Construction",
+        "status_label": "Operasi 85 MW + Pengembangan Tahap 2 (65 MW)",
+        "installed_capacity_mw": 85.0,
+        "potential_capacity_mw": 220.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 260,
+        "wkp_name": "WKP Liki Pinangawan Muaralaboh",
+        "island": "Sumatera",
+        "province": "Sumatera Barat",
+        "regency": "Kabupaten Solok Selatan",
+        "elevation_masl": 1400,
+        "commercial_operation_year": 2019,
+        "grid_connection": "SUTET 275 kV Tol Listrik Sumatera",
+        "data_source": "Supreme Energy & Ditjen EBTKE",
+        "description": "Konsorsium Supreme Energy, Engie, dan Sumitomo Corporation. Pembangkitan tahap 2 sedang dipersiapkan untuk penambahan 65 MW."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.4667, -4.1833]
+      },
+      "properties": {
+        "id": "COMP-SUP-RD",
+        "site_name": "PLTP Rantau Dedap (Unit 1)",
+        "operator_company": "PT Supreme Energy Rantau Dedap (SERD)",
+        "company_category": "Supreme Energy",
+        "is_star_energy": false,
+        "project_status": "Operational",
+        "status_label": "Beroperasi (91.2 MW)",
+        "installed_capacity_mw": 91.2,
+        "potential_capacity_mw": 220.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 270,
+        "wkp_name": "WKP Rantau Dedap",
+        "island": "Sumatera",
+        "province": "Sumatera Selatan",
+        "regency": "Kabupaten Muara Enim & Lahat",
+        "elevation_masl": 2100,
+        "commercial_operation_year": 2021,
+        "grid_connection": "Transmisi Sumatera 150 kV",
+        "data_source": "Supreme Energy & Asian Development Bank (ADB)",
+        "description": "Terletak di dataran tinggi terpencil pegunungan Bukit Barisan dengan elevasi lebih dari 2000 mdpl."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.2417, -8.0583]
+      },
+      "properties": {
+        "id": "COMP-MDC-IJN",
+        "site_name": "PLTP Blawan Ijen",
+        "operator_company": "PT Medco Cahaya Geothermal (MCG)",
+        "company_category": "Medco Power",
+        "is_star_energy": false,
+        "project_status": "Under Construction",
+        "status_label": "Tahap Akhir Konstruksi / Commissioning (34 MW)",
+        "installed_capacity_mw": 34.0,
+        "potential_capacity_mw": 110.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 250,
+        "wkp_name": "WKP Ijen",
+        "island": "Jawa",
+        "province": "Jawa Timur",
+        "regency": "Kabupaten Bondowoso & Banyuwangi",
+        "elevation_masl": 1600,
+        "commercial_operation_year": 2024,
+        "grid_connection": "Interkoneksi Jamali 150 kV",
+        "data_source": "Medco Power Indonesia & Ormat Technologies (2024)",
+        "description": "PLTP pertama di Jawa Timur, dikembangkan oleh Medco bersama Ormat Technologies dengan teknologi biner dan siklus uap."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.4500, -8.6833]
+      },
+      "properties": {
+        "id": "COMP-PLN-ULM",
+        "site_name": "PLTP Ulumbu",
+        "operator_company": "PT PLN Indonesia Power / PLN Gas & Geothermal",
+        "company_category": "PLN IP",
+        "is_star_energy": false,
+        "project_status": "Operational",
+        "status_label": "Operasi (10 MW) + Rencana Ekspansi Unit 5-6 (40 MW)",
+        "installed_capacity_mw": 10.0,
+        "potential_capacity_mw": 100.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 240,
+        "wkp_name": "WKP Ulumbu",
+        "island": "Nusa Tenggara",
+        "province": "Nusa Tenggara Timur",
+        "regency": "Kabupaten Manggarai",
+        "elevation_masl": 750,
+        "commercial_operation_year": 2011,
+        "grid_connection": "Sistem Kelistrikan Flores 70/150 kV",
+        "data_source": "PT PLN (Persero) RUPTL 2021-2030 & Ditjen EBTKE",
+        "description": "Pusat pembangkit panas bumi pulau Flores yang mendukung program Flores Geothermal Island."
+      }
+    }
+  ]
+}

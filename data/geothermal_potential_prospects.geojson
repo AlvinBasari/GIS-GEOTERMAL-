@@ -1,0 +1,244 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Indonesian National Geothermal Prospects (Greenfield & Unexploited WKP)",
+    "description": "Potensi Sumber Daya dan Wilayah Kerja Panas Bumi (WKP) Nasional yang Belum Tereksplorasi Penuh / Pipeline Lelang ESDM",
+    "crs": "urn:ogc:def:crs:OGC:1.3:CRS84",
+    "last_updated": "2025-10",
+    "source": "Atlas Panas Bumi Indonesia (Badan Geologi & Pusat Sumber Daya Mineral Batubara dan Panas Bumi - PSDMBP), Ditjen EBTKE Kementerian ESDM"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.6811, -0.9772]
+      },
+      "properties": {
+        "id": "PROS-TLG-01",
+        "site_name": "Prospek Gunung Talang - Bukit Kili",
+        "operator_company": "Wilayah Cadangan Pemerintah / Lelang Terbuka",
+        "company_category": "Pemerintah (ESDM)",
+        "is_star_energy": false,
+        "project_status": "Potential",
+        "status_label": "Potensi Belum Tereksplorasi (65 MW)",
+        "installed_capacity_mw": 0.0,
+        "potential_capacity_mw": 65.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 240,
+        "wkp_name": "WKP Gunung Talang-Bukit Kili",
+        "island": "Sumatera",
+        "province": "Sumatera Barat",
+        "regency": "Kabupaten Solok",
+        "elevation_masl": 1500,
+        "commercial_operation_year": null,
+        "grid_connection": "Prospek Interkoneksi Sumatera 150 kV",
+        "data_source": "Badan Geologi PSDMBP & Ditjen EBTKE",
+        "description": "Manifestasi mata air panas dan fumarol di sayap barat Gunung Talang, memiliki anomali resistivitas MT rendah khas reservoar vulkanik."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.4500, -6.9400]
+      },
+      "properties": {
+        "id": "PROS-CSL-02",
+        "site_name": "Prospek Cisolok - Cisukarame",
+        "operator_company": "Wilayah Cadangan Pemerintah (Program Government Drilling)",
+        "company_category": "Pemerintah (ESDM)",
+        "is_star_energy": false,
+        "project_status": "Potential",
+        "status_label": "Survei Geologi / Penyiapan WKP (45 MW)",
+        "installed_capacity_mw": 0.0,
+        "potential_capacity_mw": 45.0,
+        "enthalpy_type": "Medium to High Enthalpy",
+        "reservoir_temp_celsius": 210,
+        "wkp_name": "WKP Cisolok-Cisukarame",
+        "island": "Jawa",
+        "province": "Jawa Barat",
+        "regency": "Kabupaten Sukabumi",
+        "elevation_masl": 300,
+        "commercial_operation_year": null,
+        "grid_connection": "Jaringan Distribusi Sukabumi Selatan 20/70 kV",
+        "data_source": "Badan Geologi Kementerian ESDM",
+        "description": "Terkenal dengan geyser dan mata air panas mendidih di sepanjang sesar Sungai Cisolok, dekat Teluk Palabuhanratu."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.2167, -7.2833]
+      },
+      "properties": {
+        "id": "PROS-BTR-03",
+        "site_name": "Prospek Baturaden (Gunung Slamet)",
+        "operator_company": "Eksplorasi Tahap Awal / Re-evaluasi WKP",
+        "company_category": "Pemerintah (ESDM)",
+        "is_star_energy": false,
+        "project_status": "Potential",
+        "status_label": "Potensi Cadangan Terduga (110 MW)",
+        "installed_capacity_mw": 0.0,
+        "potential_capacity_mw": 110.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 255,
+        "wkp_name": "WKP Baturaden",
+        "island": "Jawa",
+        "province": "Jawa Tengah",
+        "regency": "Kabupaten Banyumas & Brebes",
+        "elevation_masl": 1800,
+        "commercial_operation_year": null,
+        "grid_connection": "Interkoneksi Jawa Bagian Tengah 150 kV",
+        "data_source": "Ditjen EBTKE & Laporan Geofisika ITB/UGM",
+        "description": "Potensi besar di lereng Gunung Slamet dengan suhu reservoar tinggi, memerlukan penanganan teknis pada zona permeabilitas batuan."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.6310, -7.7950]
+      },
+      "properties": {
+        "id": "PROS-NGB-04",
+        "site_name": "Prospek Telaga Ngebel",
+        "operator_company": "Kementerian ESDM & PT PLN",
+        "company_category": "Pemerintah (ESDM)",
+        "is_star_energy": false,
+        "project_status": "Potential",
+        "status_label": "Survei 3G (Geologi, Geofisika, Geokimia) (120 MW)",
+        "installed_capacity_mw": 0.0,
+        "potential_capacity_mw": 120.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 240,
+        "wkp_name": "WKP Gunung Wilis / Ngebel",
+        "island": "Jawa",
+        "province": "Jawa Timur",
+        "regency": "Kabupaten Ponorogo & Madiun",
+        "elevation_masl": 1200,
+        "commercial_operation_year": null,
+        "grid_connection": "Interkoneksi 150 kV Madiun-Ponorogo",
+        "data_source": "Badan Geologi & Pusat Sumber Daya Panas Bumi",
+        "description": "Sistem panas bumi vulkanik Gunung Wilis dengan manifestasi mata air panas dan solfatara di sekitar danau kawah Telaga Ngebel."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.6500, -0.7167]
+      },
+      "properties": {
+        "id": "PROS-SNG-05",
+        "site_name": "Prospek Songa Wayaua",
+        "operator_company": "Kementerian ESDM (Eksplorasi Pemerintah)",
+        "company_category": "Pemerintah (ESDM)",
+        "is_star_energy": false,
+        "project_status": "Potential",
+        "status_label": "Potensi Terindikasi (70 MW)",
+        "installed_capacity_mw": 0.0,
+        "potential_capacity_mw": 70.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 235,
+        "wkp_name": "WKP Songa Wayaua",
+        "island": "Maluku",
+        "province": "Maluku Utara",
+        "regency": "Kabupaten Halmahera Selatan (Pulau Bacan)",
+        "elevation_masl": 450,
+        "commercial_operation_year": null,
+        "grid_connection": "Sistem Kelistrikan Bacan 20 kV",
+        "data_source": "Badan Geologi ESDM & Publikasi IAGI",
+        "description": "Potensi panas bumi di Pulau Bacan dengan manifestasi mata air panas bertemperatur tinggi di sepanjang struktur sesar Wayaua."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.8167, -0.7333]
+      },
+      "properties": {
+        "id": "PROS-MRN-06",
+        "site_name": "Prospek Marana",
+        "operator_company": "Wilayah Penugasan Survei Pendahuluan",
+        "company_category": "Pemerintah (ESDM)",
+        "is_star_energy": false,
+        "project_status": "Potential",
+        "status_label": "Potensi Cadangan Terduga (20 MW)",
+        "installed_capacity_mw": 0.0,
+        "potential_capacity_mw": 20.0,
+        "enthalpy_type": "Medium Enthalpy",
+        "reservoir_temp_celsius": 185,
+        "wkp_name": "WKP Marana",
+        "island": "Sulawesi",
+        "province": "Sulawesi Tengah",
+        "regency": "Kabupaten Donggala",
+        "elevation_masl": 150,
+        "commercial_operation_year": null,
+        "grid_connection": "Sistem Kelistrikan Palu-Donggala 70/150 kV",
+        "data_source": "Pusat Sumber Daya Mineral Batubara dan Panas Bumi",
+        "description": "Sistem panas bumi non-vulkanik yang dikontrol oleh struktur sesar aktif Palu-Koro di Sulawesi Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.3280, 5.8010]
+      },
+      "properties": {
+        "id": "PROS-JBO-07",
+        "site_name": "Prospek Jaboi (Pulau Weh)",
+        "operator_company": "Kementerian ESDM & Pemerintah Aceh",
+        "company_category": "Pemerintah (ESDM)",
+        "is_star_energy": false,
+        "project_status": "Potential",
+        "status_label": "Potensi Terbukti / Siap Lelang Ulang (50 MW)",
+        "installed_capacity_mw": 0.0,
+        "potential_capacity_mw": 50.0,
+        "enthalpy_type": "High Enthalpy",
+        "reservoir_temp_celsius": 250,
+        "wkp_name": "WKP Jaboi",
+        "island": "Sumatera",
+        "province": "Aceh",
+        "regency": "Kota Sabang",
+        "elevation_masl": 200,
+        "commercial_operation_year": null,
+        "grid_connection": "Isolated Grid Pulau Weh Sabang 20 kV",
+        "data_source": "Dinas ESDM Aceh & Badan Geologi",
+        "description": "Manifestasi solfatara dan fumarol aktif di ujung barat Nusantara, ideal sebagai pusat energi hijau kepulauan."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.9667, -3.2667]
+      },
+      "properties": {
+        "id": "PROS-WPS-08",
+        "site_name": "Prospek Wapsalit",
+        "operator_company": "Wilayah Penugasan Survei ESDM",
+        "company_category": "Pemerintah (ESDM)",
+        "is_star_energy": false,
+        "project_status": "Potential",
+        "status_label": "Potensi Terindikasi (42 MW)",
+        "installed_capacity_mw": 0.0,
+        "potential_capacity_mw": 42.0,
+        "enthalpy_type": "Medium to High Enthalpy",
+        "reservoir_temp_celsius": 200,
+        "wkp_name": "WKP Wapsalit",
+        "island": "Maluku",
+        "province": "Maluku",
+        "regency": "Kabupaten Buru",
+        "elevation_masl": 350,
+        "commercial_operation_year": null,
+        "grid_connection": "Sistem Kelistrikan Namlea 20 kV",
+        "data_source": "Badan Geologi Kementerian ESDM",
+        "description": "Manifestasi air panas di Pulau Buru, menjadi target strategis penyediaan listrik terbarukan di Kepulauan Maluku."
+      }
+    }
+  ]
+}

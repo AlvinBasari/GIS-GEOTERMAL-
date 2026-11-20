@@ -1,0 +1,78 @@
+{
+  "academic_project_metadata": {
+    "project_title": "Sistem Informasi Geografis (SIG) Pemetaan Portofolio dan Analisis Spasial Panas Bumi Nasional",
+    "case_study": "PT Star Energy Geothermal (Barito Renewables) & Pemetaan Kompetitor Indonesia",
+    "course_context": "Tugas Akhir Mata Kuliah Sistem Informasi Geografis (SIG)",
+    "crs_specification": "EPSG:4326 (WGS 84) - Simple Feature Specification (OGC RFC 7946)",
+    "geospatial_standards": [
+      "SNI 5015:2019 - Pedoman Pelaporan Sumber Daya dan Cadangan Panas Bumi Indonesia",
+      "Peraturan Pemerintah No. 7 Tahun 2017 tentang Panas Bumi untuk Pemanfaatan Tidak Langsung",
+      "Undang-Undang Republik Indonesia No. 21 Tahun 2014 tentang Panas Bumi",
+      "Standar Satu Data Geospasial Indonesia (Badan Informasi Geospasial / BIG)"
+    ]
+  },
+  "official_data_sources": [
+    {
+      "institution": "Kementerian Energi dan Sumber Daya Mineral Republik Indonesia (Ditjen EBTKE)",
+      "title": "Neraca Panas Bumi Indonesia & Peta Sebaran Wilayah Kerja Panas Bumi (WKP)",
+      "year": 2024,
+      "url": "https://ebtke.esdm.go.id"
+    },
+    {
+      "institution": "Badan Geologi - Pusat Sumber Daya Mineral, Batubara dan Panas Bumi (PSDMBP)",
+      "title": "Atlas Potensi Panas Bumi Indonesia: Wilayah Prospek dan Manifestasi Hidrotermal",
+      "year": 2023,
+      "url": "https://psdmbp.geologi.esdm.go.id"
+    },
+    {
+      "institution": "Pusat Studi Gempa Nasional (PuSGeN)",
+      "title": "Peta Sumber dan Bahaya Gempa Indonesia: Peta Sesar Aktif Indonesia",
+      "year": 2017,
+      "url": "https://pusgen.pu.go.id"
+    },
+    {
+      "institution": "PT Barito Renewables Energy Tbk (BREN) & PT Star Energy Geothermal",
+      "title": "Laporan Tahunan 2024, Investor Factsheet, & Keterbukaan Informasi Bursa Efek Indonesia (IDX)",
+      "year": 2024,
+      "url": "https://baritorenewables.co.id & https://starenergygeothermal.co.id"
+    },
+    {
+      "institution": "PT Pertamina Geothermal Energy Tbk (PGE)",
+      "title": "Annual Report & Sustainability Report 2024: Energizing Green Future",
+      "year": 2024,
+      "url": "https://pge.pertamina.com"
+    },
+    {
+      "institution": "PT Geo Dipa Energi (Persero)",
+      "title": "Profil Proyek Ekspansi PLTP Dieng Unit 2 & Patuha Unit 2 (Dukungan Pembiayaan ADB)",
+      "year": 2024,
+      "url": "https://geodipa.co.id"
+    },
+    {
+      "institution": "ThinkGeoEnergy (Global Geothermal Energy News & Intelligence)",
+      "title": "Indonesia Geothermal Power Plant Database and Capacity Tracker",
+      "year": 2024,
+      "url": "https://www.thinkgeoenergy.com"
+    }
+  ],
+  "academic_papers": [
+    {
+      "authors": "Sieh, K., & Natawidjaja, D.",
+      "year": 2000,
+      "title": "Neotectonics of the Sumatran fault, Indonesia",
+      "journal": "Journal of Geophysical Research: Solid Earth, 105(B12), 28295-28326"
+    },
+    {
+      "authors": "Saptadji, N. M.",
+      "year": 2018,
+      "title": "Teknik Panas Bumi: Karakterisasi Reservoar dan Eksplorasi Panas Bumi Indonesia",
+      "publisher": "Penerbit ITB Bandung"
+    },
+    {
+      "authors": "Darma, S., Harsoprayitno, S., Setiawan, B., & Munandar, A.",
+      "year": 2020,
+      "title": "Geothermal energy update: Geothermal development in Indonesia 2015-2020",
+      "conference": "Proceedings of the World Geothermal Congress 2020+1, Reykjavik, Iceland"
+    }
+  ]
+}
