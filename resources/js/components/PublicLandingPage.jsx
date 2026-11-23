@@ -802,16 +802,39 @@ export default function PublicLandingPage({ sites: propSites = [], onOpenInterna
             </div>
           </a>
 
-          {/* Clean 7-Feature Editorial Navigation Links */}
-          <nav className="hidden xl:flex items-center gap-6 text-xs font-bold text-slate-700">
-            <a href="#beranda" className="hover:text-black transition-colors px-2 py-1">1. Beranda</a>
-            <a href="#peta-interaktif" className="hover:text-black transition-colors px-2 py-1 flex items-center gap-1.5">
-              <span>2. Peta Interaktif</span>
+          {/* Clean Executive Corporate Navigation Links */}
+          <nav className="hidden lg:flex items-center gap-1 bg-white/80 border border-slate-200/90 rounded-full px-2 py-1.5 shadow-2xs backdrop-blur-md">
+            <a 
+              href="#beranda" 
+              className="px-3.5 py-1.5 rounded-full text-xs font-bold text-slate-700 hover:text-slate-950 hover:bg-slate-100/80 transition-all"
+            >
+              Beranda
+            </a>
+            <a 
+              href="#peta-interaktif" 
+              className="px-3.5 py-1.5 rounded-full text-xs font-bold text-slate-700 hover:text-slate-950 hover:bg-slate-100/80 transition-all flex items-center gap-1.5"
+            >
+              <span>Peta Interaktif</span>
               <span className="w-1.5 h-1.5 rounded-full bg-[#d8f537]"></span>
             </a>
-            <a href="#cari-filter" className="hover:text-black transition-colors px-2 py-1">3. Cari & Filter</a>
-            <a href="#statistik-nasional" className="hover:text-black transition-colors px-2 py-1">6. Statistik Nasional</a>
-            <a href="#kontak" className="hover:text-black transition-colors px-2 py-1">7. Kontak</a>
+            <a 
+              href="#cari-filter" 
+              className="px-3.5 py-1.5 rounded-full text-xs font-bold text-slate-700 hover:text-slate-950 hover:bg-slate-100/80 transition-all"
+            >
+              Cari & Filter
+            </a>
+            <a 
+              href="#statistik-nasional" 
+              className="px-3.5 py-1.5 rounded-full text-xs font-bold text-slate-700 hover:text-slate-950 hover:bg-slate-100/80 transition-all"
+            >
+              Statistik Nasional
+            </a>
+            <a 
+              href="#kontak" 
+              className="px-3.5 py-1.5 rounded-full text-xs font-bold text-slate-700 hover:text-slate-950 hover:bg-slate-100/80 transition-all"
+            >
+              Kontak
+            </a>
           </nav>
 
           {/* Action Buttons */}
@@ -996,9 +1019,9 @@ export default function PublicLandingPage({ sites: propSites = [], onOpenInterna
         {/* Section Header */}
         <div className="mb-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
-            <div className="inline-flex items-center gap-1.5 text-xs font-mono font-bold uppercase tracking-wider text-blue-700 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">
+            <div className="inline-flex items-center gap-1.5 text-[11px] font-mono font-bold uppercase tracking-wider text-blue-700 bg-blue-50/90 px-3 py-1 rounded-full border border-blue-200">
               <Globe2 className="w-3.5 h-3.5" />
-              <span>Modul 2, 3 & 4: Peta Spasial Nasional</span>
+              <span>SEBARAN SPASIAL & PETA DIGITAL NASIONAL</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-[#121316] tracking-tight mt-2">
               Peta Interaktif Sebaran Panas Bumi Seluruh Indonesia
@@ -1031,7 +1054,7 @@ export default function PublicLandingPage({ sites: propSites = [], onOpenInterna
               <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
               <input
                 type="text"
-                placeholder="Fitur 3: Cari lokasi berdasarkan nama PLTP, WKP, Kabupaten, atau Pengembang..."
+                placeholder="Ketik nama PLTP, WKP, Kabupaten, atau Pengembang (misal: Wayang Windu, Dieng, Salak)..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-10 pr-9 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs text-slate-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 font-sans"
@@ -1464,9 +1487,9 @@ export default function PublicLandingPage({ sites: propSites = [], onOpenInterna
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="mb-8">
-            <div className="inline-flex items-center gap-1.5 text-xs font-mono font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+            <div className="inline-flex items-center gap-1.5 text-[11px] font-mono font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50/90 px-3 py-1 rounded-full border border-emerald-200">
               <BarChart3 className="w-3.5 h-3.5" />
-              <span>Modul 6: Neraca EBTKE ESDM 2024</span>
+              <span>NERACA ENERGI & STATISTIK EBTKE NASIONAL</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-[#121316] tracking-tight mt-2">
               Statistik & Bauran Panas Bumi Nasional
@@ -1478,10 +1501,10 @@ export default function PublicLandingPage({ sites: propSites = [], onOpenInterna
             {/* 4 Interactive Statistics Tabs */}
             <div className="mt-6 flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none border-b border-slate-200">
               {[
-                { id: 'operator_share', label: '1. Pangsa Pasar Operator', icon: PieChart },
-                { id: 'province_distribution', label: '2. Sebaran per Provinsi', icon: MapPin },
-                { id: 'emissions', label: '3. Komparasi Emisi Bersih', icon: Leaf },
-                { id: 'calculator', label: '4. Kalkulator Manfaat Hijau', icon: Sliders }
+                { id: 'operator_share', label: 'Pangsa Pasar Operator', icon: PieChart },
+                { id: 'province_distribution', label: 'Sebaran per Provinsi', icon: MapPin },
+                { id: 'emissions', label: 'Komparasi Emisi Bersih', icon: Leaf },
+                { id: 'calculator', label: 'Kalkulator Manfaat Hijau', icon: Sliders }
               ].map(tab => {
                 const IconComponent = tab.icon;
                 const isActive = activeStatTab === tab.id;
@@ -1701,9 +1724,9 @@ export default function PublicLandingPage({ sites: propSites = [], onOpenInterna
         
         {/* Section Title */}
         <div className="mb-8">
-          <div className="inline-flex items-center gap-1.5 text-xs font-mono font-bold uppercase tracking-wider text-blue-700 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">
+          <div className="inline-flex items-center gap-1.5 text-[11px] font-mono font-bold uppercase tracking-wider text-blue-700 bg-blue-50/90 px-3 py-1 rounded-full border border-blue-200">
             <Mail className="w-3.5 h-3.5" />
-            <span>Modul 7: Layanan Kontak & Konsultasi Publik</span>
+            <span>PUSAT LAYANAN INFORMASI & KONSULTASI PUBLIK</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-black text-[#121316] tracking-tight mt-2">
             Pusat Layanan Informasi & Hubungi Kami
@@ -1942,12 +1965,11 @@ export default function PublicLandingPage({ sites: propSites = [], onOpenInterna
           </div>
 
           <div className="flex items-center gap-6 text-xs text-slate-600 font-medium">
-            <a href="#beranda" className="hover:text-black">1. Beranda</a>
-            <a href="#peta-interaktif" className="hover:text-black">2. Peta</a>
-            <a href="#cari-filter" className="hover:text-black">3. Cari</a>
-            <a href="#cari-filter" className="hover:text-black">4. Filter</a>
-            <a href="#statistik-nasional" className="hover:text-black">6. Statistik</a>
-            <a href="#kontak" className="hover:text-black">7. Kontak</a>
+            <a href="#beranda" className="hover:text-black transition-colors">Beranda</a>
+            <a href="#peta-interaktif" className="hover:text-black transition-colors">Peta Interaktif</a>
+            <a href="#cari-filter" className="hover:text-black transition-colors">Cari & Filter</a>
+            <a href="#statistik-nasional" className="hover:text-black transition-colors">Statistik Nasional</a>
+            <a href="#kontak" className="hover:text-black transition-colors">Kontak</a>
           </div>
 
           <div className="text-[11px] text-slate-400">
